@@ -1,0 +1,51 @@
+.slideshow-container {
+    position: relative;
+    
+  }
+  
+  .slide img {
+    max-width: 200%;
+    height: auto;
+  }
+  
+  .mission{
+   background-image: linear-gradient(45deg,white,purple,pink );
+   color: white;
+  }
+  .miss {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 470px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .miss img {
+    height: 150vh;
+  }
+  
+  .miss-text {
+    width: 100%;
+  }
+  
+  .miss-text h1 {
+    margin-bottom: 10%;
+    margin-left: 10%;
+    font-family: "Arial Black";
+  }
+  
+  .miss-text h2 {
+    font-family: "Roboto Condensed - 400";
+    margin-left: 3%;
+  }
+  
+  .miss-text h1:nth-child(3),
+  .miss-text h1:nth-child(4) {
+    margin-left: 3%;
+  }
+  
+  
+  /* .footer{
+    background-image: linear-gradient(135deg,black,grey );
+    color: white
+  } */

@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navbar__logo {
+    width: 50px; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+  }
+  
+  .navbar__menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar__menu li {
+    margin-right: 20px;
+  }
+  
+  .navbar__menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar__menu a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar__right a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
