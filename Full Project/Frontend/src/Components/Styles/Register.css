@@ -1,0 +1,145 @@
+.signin-frm,
+.signin-in,
+.signin-but{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.signin-over{
+    background-image: url("../Assets/Logo12.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  margin-top: -70px;
+  height: 108.7vh;
+  width: 100vw;
+}
+.signin-htag{
+    margin-top: -20px;
+    margin-bottom: 16px;
+}
+.signin-background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 25%;
+    top: 50%;
+}
+.signin-background .signin-shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+/* .signin-shape:first-child{
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    );
+    left: -80px;
+    top: 425px;
+}
+.signin-shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    right: -80px;
+    bottom: 425px;
+} */
+.signin-frm{
+    height: 605px;
+    width: 400px;
+    background-color: rgba(117, 116, 116, 0.233);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 56%;
+    left: 25%;
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+    border: 1.5px solid gray;
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+.signin-frm *{
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.6px;
+    outline: none;
+    border: none;
+}
+.signin-frm h3{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.signin-r1{
+    display: flex;
+    flex-direction: column;
+}
+.signin-lab{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: px;
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(252, 189, 73);
+    font-family:poppins
+}
+.signin-in{
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    border: 0.5px solid gray;
+}
+.signin-in::placeholder{
+    color: rgba(177, 175, 175, 0.694)
+}
+.signin-but{
+    margin-top: 25px;
+width: 33%;
+font-size: 15px;
+background-color: #ffffff;
+color: #080710;
+padding: 12px 0;
+font-weight: 700;
+border-radius: 10px;
+cursor: pointer;
+margin-bottom: 15px;
+border: 2px solid gray;
+}
+
+.signin-but:hover{
+    background-color: #2d56b4;
+    color:white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.signin-reg{
+    margin-top:2px;
+    margin-left: 50px;
+    color: #03fcfc;
+}
+.signin-reg:hover{
+    color:#d3f709
+}
+.signin-h4tag{
+    margin-left: 150px;
+    margin-top: -40px;
+}
+.reg-p1{
+    margin-top: -50px;
+    margin-left: 130px;  
+    color:rgb(74, 252, 3);
+    font-family: poppins;
+    font-size: 17px;
+}
